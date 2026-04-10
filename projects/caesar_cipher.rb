@@ -1,7 +1,12 @@
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 shift = 0
-    
-puts "Please enter what you would like to encode: "
+
+puts <<~WELCOME
+  Welcome! This is a right shift Caesar cipher program.
+  And FYI this program only changes letters in the English alphabet.
+  Please enter what you would like to encode:
+WELCOME
+
 starting_string = gets.chomp
 
 until shift.between?(1, 25)
