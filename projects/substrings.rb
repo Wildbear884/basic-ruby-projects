@@ -1,8 +1,6 @@
 def substrings(str, dict)
   dict.reduce({}) do |count, word|
-    if str.downcase.include?(word)
-      count[word] = str.downcase.scan(word).length
-    end
+    count[word] = str.downcase.scan(word).length if str.downcase.include?(word)
     count
   end
 end
