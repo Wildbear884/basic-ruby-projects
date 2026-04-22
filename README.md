@@ -12,7 +12,7 @@ There are a total of four projects:
 - Bubble sort - (WIP)
 
 ## Caesar Cipher
-[Caesar Cipher project from The Odin Project](https://www.theodinproject.com/lessons/ruby-caesar-cipher) <br>
+[Caesar cipher project from The Odin Project](https://www.theodinproject.com/lessons/ruby-caesar-cipher) <br>
 This program preforms a right shift Caesar cipher on the entered sentence,
  it is shifted by the number entered, then it outputs the encoded
 sentence in the console.
