@@ -8,7 +8,7 @@ purposes and The Odin Project.
 There are a total of four projects:
 - Caesar cipher - (complete)
 - Substrings - (complete)
-- Stock picker - (WIP)
+- Stock picker - (complete)
 - Bubble sort - (WIP)
 
 ## Caesar Cipher
@@ -23,3 +23,9 @@ This program takes pre-entered text and a pre-entered dictionary and then
 tallies up all of the times the words in the dictionary appear anywhere in the
 text if word in the dictionary appears in the text. <br>
 There are two texts in this program, a short text and a long text.
+
+## Stock Picker
+[Stock picker project from The Odin Project](https://www.theodinproject.com/lessons/ruby-stock-picker) <br>
+This program takes a pre-entered array of numbers then finds the best days to 
+buy and sell to make the most profit. <br>
+The day count start at zero and there are four sets of days.
