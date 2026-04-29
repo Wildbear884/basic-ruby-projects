@@ -1,7 +1,11 @@
 def bubble_sort(array)
   arr = array.dup
+  remaining_loops = arr.length - 1
+
   (arr.length - 1).times do
-    (arr.length - 1).times do |ele|
+    arr_sorted = true
+    
+      remaining_loops.times do |ele|
       first_number = ele
       second_number = ele + 1
 
@@ -9,11 +13,15 @@ def bubble_sort(array)
         temp = arr[first_number]
         arr[first_number] = arr[second_number]
         arr[second_number] = temp
+
+        arr_sorted = false
       end
-
     end
-  end
 
+    remaining_loops -= 1
+    break if arr_sorted
+  end
+  
   arr
 end
 
