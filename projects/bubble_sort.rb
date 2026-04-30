@@ -1,12 +1,12 @@
 def bubble_sort(array)
   arr = array.dup
-  iterations_remaining = arr.length - 1
+  num_of_unsorted_elements = arr.length - 1
   arr_sorted = false
 
   until arr_sorted do
     arr_sorted = true
     
-    iterations_remaining.times do |ele|
+    num_of_unsorted_elements.times do |ele|
       if arr[ele] > arr[ele + 1]
         temp_value = arr[ele]
         arr[ele] = arr[ele + 1]
@@ -16,7 +16,7 @@ def bubble_sort(array)
       end
     end
 
-    iterations_remaining -= 1
+    num_of_unsorted_elements -= 1
   end
   
   arr
