@@ -9,7 +9,7 @@ There are a total of four projects:
 - Caesar cipher - (complete)
 - Substrings - (complete)
 - Stock picker - (complete)
-- Bubble sort - (WIP)
+- Bubble sort - (complete)
 
 ## Caesar Cipher
 [Caesar cipher project from The Odin Project](https://www.theodinproject.com/lessons/ruby-caesar-cipher) <br>
@@ -29,3 +29,8 @@ There are two texts in this program, a short text and a long text.
 This program takes a pre-entered array of numbers then finds the best days to 
 buy and sell to make the most profit. <br>
 The day count start at zero and there are four sets of days.
+
+## Bubble Sort
+[Bubble sort project from The Odin Project](https://www.theodinproject.com/lessons/ruby-bubble-sort) <br>
+This program takes some pre-entered arrays and sorts them using the bubble sort method. <br>
+There are currently 6 arrays of various lengths that get sorted.
