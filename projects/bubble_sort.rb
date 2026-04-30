@@ -1,8 +1,9 @@
 def bubble_sort(array)
   arr = array.dup
   iterations_remaining = arr.length - 1
+  arr_sorted = false
 
-  (arr.length - 1).times do
+  until arr_sorted do
     arr_sorted = true
     
     iterations_remaining.times do |ele|
@@ -16,7 +17,6 @@ def bubble_sort(array)
     end
 
     iterations_remaining -= 1
-    break if arr_sorted
   end
   
   arr
