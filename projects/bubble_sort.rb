@@ -22,6 +22,17 @@ def bubble_sort(array)
   arr
 end
 
-p bubble_sort([3, 2, 1])
-p bubble_sort([2, 3, 1])
-p bubble_sort([10, 4, 2, 5, 5, 4, 6, 7, 8, 9])
+demo_arrays = [
+  [3, 2, 1],
+  [2, 3, 1],
+  [10, 4, 2, 5, 5, 4, 6, 7, 8, 9],
+  [4, 3, 78, 2, 0, 2],
+  [80, 15, 23, 45, 89, 1, 2, 8],
+  [1000, 108, 80, 1, -50, -25, 1]
+]
+
+demo_arrays.each do |arr| 
+  puts "Starting array: #{arr}"
+  puts "Sorted array: #{bubble_sort(arr)}"
+  puts
+end
